@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+
+    <item
+        android:id="@+id/red"
+        android:title="RED"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon1"
+        ></item>
+    <item
+        android:id="@+id/green"
+        android:title="GREEN"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon2"
+        ></item>
+    <item
+        android:id="@+id/blue"
+        android:title="BLUE"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon3"
+        ></item>
+    <item
+        android:id="@+id/orange"
+        android:title="ORANGE"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/logo"
+        ></item>
+
+</menu>
